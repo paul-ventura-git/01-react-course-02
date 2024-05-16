@@ -4,7 +4,7 @@ import Todos from "./Todos";
 
 function App() {
   const [count, setCount] = useState(0);
-  const [todos, setTodos] = useState(["todo 1", "todo 2"]);
+  const [todos, setTodos] = useState(["todo first", "todo second"]);
 
   const increment = () => {
     setCount((c) => c + 1);
