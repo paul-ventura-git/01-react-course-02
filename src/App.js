@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ReactDOM from "react-dom/client";
 import Todos from "./Todos";
+import './my-style.scss'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,6 +17,7 @@ function App() {
         <hr />
         <div>
           Count: {count}
+          <hr />
           <button onClick={increment}>Increment</button>
         </div>
     </div>
